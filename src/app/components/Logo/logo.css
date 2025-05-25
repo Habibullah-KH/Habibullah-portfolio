@@ -1,0 +1,28 @@
+.logo_container{
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+    font-family: var(--font-secondary);
+}
+
+.special_button{
+    background: var(--clr-primary);
+    width: 10px;
+    height: 10px;
+}
+
+.logo_first_name{
+   font-size: 1.34rem;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.logo_last_name{
+  font-size: 0.7rem;
+  line-height: 1px;
+  color: gray;
+  letter-spacing: 0.54rem;
+  text-transform: uppercase;
+  margin-left: 5px;
+  cursor: pointer;
+}
