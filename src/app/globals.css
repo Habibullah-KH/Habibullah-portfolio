@@ -6,7 +6,7 @@
 
 :root {
   --clr-white: #ffffff;
-  --clr-black: #171717;
+  --clr-black: #0f172a;
   --clr-primary: #07f49e;
   --clr-secondary: #42047e;
 
@@ -17,6 +17,10 @@
   --font-secondary: "Poiret One", sans-serif;
 }
 
+.dark{
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
 
 body {
   max-width: 1920px;

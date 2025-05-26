@@ -11,7 +11,7 @@ const geistSans = Geist({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body>
       <NavBar/>
       <div className="min-h-[calc(100dvh-300px)]">
