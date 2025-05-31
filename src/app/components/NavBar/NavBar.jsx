@@ -7,11 +7,11 @@ import { useState } from 'react';
 import SwapButton from '../Buttons/Swap_button/SwapButton'
 import ButtonFill from '../../components/Buttons/Button_fill/ButtonFill'
 import ThemeSwap from '../Buttons/Theme_swap/ThemeSwap'
-import useTheme from '../Theme/useTheme'
+import { useTheme } from '../Theme/useTheme'
 
 export default function NavBar(){
 
-    const {darkMode, swapTheme} = useTheme();
+    const {swapTheme} = useTheme();
 
     const [navDrop, setNavDrop] = useState(false);
     const handleDropdown = () => {

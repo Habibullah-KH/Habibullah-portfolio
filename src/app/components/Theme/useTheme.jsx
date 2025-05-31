@@ -1,37 +1,37 @@
-export default function useTheme(){
- let darkMode = localStorage.getItem("darkMode");
+"use client"
+// ThemeContext.jsx
+import { createContext, useContext, useEffect, useState } from 'react';
 
- //* check if dark mode is enabled
- //* if it's enabled, turn it off
- //*if it's disabled, turn it on
+const ThemeContext = createContext();
 
- const enableDarkMode = () => {
-    //1. add the class dark in the localStorage
-    document.body.classList.add('dark');
-    //2. update darkMode in the localStorage
-    localStorage.setItem("darkMode", "enabled");
- };
+export const ThemeProvider = ({ children }) => {
+  const [darkMode, setDarkMode] = useState('disabled');
 
- const disableDarkMode = () => {
-    //1. remove the class dark to the body
-    document.body.classList.remove("dark");
-    //2. update darkMode in the localStorage
-    localStorage.setItem("darkMode", null);
- }
-
- if(darkMode === "enabled") {
-    enableDarkMode();
- }
-
- function swapTheme() {
-    darkMode = localStorage.getItem("darkMode");
-    if (darkMode !== "enabled") {
-        enableDarkMode()
+  useEffect(() => {
+    const mode = localStorage.getItem('darkMode');
+    if (mode === 'enabled') {
+      setDarkMode('enabled');
+      document.body.classList.add('dark');
     }
-    else{
-        disableDarkMode()
-    }
- }
+  }, []);
 
- return {darkMode, swapTheme};
-}
+  const swapTheme = () => {
+    if (darkMode === 'enabled') {
+      document.body.classList.remove('dark');
+      localStorage.setItem('darkMode', 'disabled');
+      setDarkMode('disabled');
+    } else {
+      document.body.classList.add('dark');
+      localStorage.setItem('darkMode', 'enabled');
+      setDarkMode('enabled');
+    }
+  };
+
+  return (
+    <ThemeContext.Provider value={{ darkMode, swapTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
+
+export const useTheme = () => useContext(ThemeContext);
