@@ -1,3 +1,12 @@
-.banner_container{
-    height: 30rem;
+.banner{
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  height: 25rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px var(--clr-primary);
+  background-image: var(--gradient-primary);
 }

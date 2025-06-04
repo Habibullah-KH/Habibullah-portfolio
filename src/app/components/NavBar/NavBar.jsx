@@ -64,7 +64,7 @@ return(
  {/*dropdown swapwe end*/}
 
  <div className=
-{`dropdown_container md:hidden backdrop-blur-2xl bg-white/40
+{`dropdown_container md:hidden backdrop-blur-2xl 
 ${navDrop ? 'top-[50px]':'-top-[190px]'}
 `}>
    <ul>

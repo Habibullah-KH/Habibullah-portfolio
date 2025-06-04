@@ -10,7 +10,7 @@
   --clr-primary: #07f49e;
   --clr-secondary: #42047e;
 
-  --gradient-primary: linear-gradient(135deg, var(--clr-primary), var(--clr-secondary));
+  --gradient-primary: linear-gradient(135deg, #07f49d1f, #41047e1f);
 
 
   --font-primary: "DM Sans", sans-serif;
