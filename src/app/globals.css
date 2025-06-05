@@ -12,6 +12,8 @@
 
   --gradient-primary: linear-gradient(135deg, #07f49d1f, #41047e1f);
 
+  --glow-gradient: yellow, red, blue;
+
 
   --font-primary: "DM Sans", sans-serif;
   --font-secondary: "Poiret One", sans-serif;
@@ -22,6 +24,14 @@
   color: var(--clr-white);
 }
 
+/* glowing border */
+.glowing_border{
+margin-block: 3rem;
+border: 10px solid transparent;
+border-radius: 1rem;
+background: linear-gradient(white, white) padding-box, conic-gradient(from -90deg, var(--glow-gradient)) border-box;
+
+}
 body {
   max-width: 1920px;
   margin: 0 auto;

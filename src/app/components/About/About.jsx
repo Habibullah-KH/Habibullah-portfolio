@@ -25,15 +25,6 @@ export default function About() {
       </section>
 
       <section>
-        <h2 className="section-title"><FaTools className="icon" /> Skills</h2>
-        <ul className="section-list">
-          <li>JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB</li>
-          <li>HTML5, CSS3, Tailwind CSS, REST APIs</li>
-          <li>Git, GitHub, Firebase, basic DevOps practices</li>
-        </ul>
-      </section>
-
-      <section>
         <h2 className="section-title"><FaCode className="icon" /> Projects</h2>
         <ul className="section-list">
           <li>Developed full-stack applications solving real-world problems</li>

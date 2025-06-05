@@ -1,0 +1,83 @@
+.skills-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px var(--clr-primary);
+  background-image: var(--gradient-primary);
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.skill-card {
+  border-radius: 0.75rem;
+  width: 8rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 5px var(--clr-primary);
+  background-image: var(--gradient-primary);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.react {
+  color: #61dafb;
+}
+
+.node {
+  color: #68a063;
+}
+
+.express {
+  color: #444;
+}
+
+.mongo {
+  color: #4db33d;
+}
+
+.js {
+  color: #f7df1e;
+}
+
+.html {
+  color: #e44d26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.tailwind {
+  color: #38bdf8;
+}
+
+.git {
+  color: #f1502f;
+}
+
+.firebase {
+  color: #ffa611;
+}

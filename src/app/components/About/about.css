@@ -1,7 +1,6 @@
 .about-container {
   max-width: 1000px;
   margin: 0 auto;
-  margin-top: 5rem;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px var(--clr-primary);
