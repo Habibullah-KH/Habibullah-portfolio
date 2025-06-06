@@ -9,6 +9,14 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "My Website",
+  description: "My awesome website",
+  icons: {
+    icon: "/mylogo.png",
+  },
+};
+
 
 export default function RootLayout({ children }) {
   return (
