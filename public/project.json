@@ -3,7 +3,7 @@
     "id": 1,
     "title": "ActiveEdge",
     "description": "ActiveEdge is an innovative online store dedicated to providing high-quality sports equipment tailored to meet the unique needs of athletes and enthusiasts. The platform focuses on customization, efficiency, and a seamless shopping experience for users looking for top-tier sports gear.",
-    "banner": "/ActiveEdge.png",
+    "banner": "https://i.ibb.co/1fmpRt7v/Active-Edge.png",
     "liveLink": "https://ph-10-as-54712.web.app/category/All",
     "githubLink": "https://github.com/Habibullah-KH/Assignment-10"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "PolyLingua",
     "description": "PolyLingua is an intuitive platform designed to connect users with skilled tutors across various languages and subjects. It simplifies the process of discovering, reviewing, and booking tutors, making global learning more accessible.",
-    "banner": "/PolyLingua.png",
+    "banner": "https://i.ibb.co/ynJZrq90/Poly-Lingua.png",
     "liveLink": "https://ph-11-as-cef28.web.app/",
     "githubLink": "https://github.com/Habibullah-KH/PH_11_AS-client"
   }

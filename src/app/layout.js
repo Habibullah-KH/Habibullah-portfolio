@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
       <div className="min-h-[calc(100dvh-300px)]">
         {children}
       </div>
+      <div id="footer">
       <Footer/>
+      </div>
       </ThemeProvider>
       
       </body>

@@ -7,9 +7,9 @@ export default function Home() {
   return (
   <div>
     <div className="mb-20"><Banner/></div>
-    <div className="mb-20"><About/></div>
-    <div className="mb-20"><Skills/></div>
-    <div className="mb-20"><Project/></div>
+    <div id="about" className="mb-20"><About/></div>
+    <div id="skill" className="mb-20"><Skills/></div>
+    <div id="project" className="mb-20"><Project/></div>
   </div>
   );
 }

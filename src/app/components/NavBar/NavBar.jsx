@@ -36,9 +36,9 @@ return(
      <div className='hidden md:block '>
      <div className='nav_btn_big_screen'>
         <ul>
-            <li><ButtonBorder>About</ButtonBorder></li>
-            <li><ButtonBorder>Projects</ButtonBorder></li>
-            <li><ButtonBorder>Contact</ButtonBorder></li>
+            <Link href={'#about'}><li><ButtonBorder>About</ButtonBorder></li></Link>
+            <Link href={'#project'}><li><ButtonBorder>Projects</ButtonBorder></li></Link>
+            <Link href={'#footer'}><li><ButtonBorder>Contact</ButtonBorder></li></Link>
         </ul>        
      </div>
 
@@ -68,9 +68,9 @@ return(
 ${navDrop ? 'top-[50px]':'-top-[190px]'}
 `}>
    <ul>
-    <li><ButtonFill>About</ButtonFill></li>
-    <li><ButtonFill>Projects</ButtonFill></li>
-    <li><ButtonFill>Contact</ButtonFill></li>
+    <Link href={'#about'}><li><ButtonFill>About</ButtonFill></li></Link>
+    <Link href={'#project'}><li><ButtonFill>Projects</ButtonFill></li></Link>
+    <Link href={'#footer'}><li><ButtonFill>Contact</ButtonFill></li></Link>
     </ul>        
 </div>
 </div>
