@@ -16,7 +16,7 @@ export default function Project(){
     },[])
     return(
         <>
-        <section className="project_container glowing_border md:p-8">
+        <section className="project_container md:p-8">
             <h2 className="font-bold text-xl md:text-3xl text-left mb-7">My project</h2>
             <div className="flex flex-wrap items-center justify-center gap-10">
                 {
