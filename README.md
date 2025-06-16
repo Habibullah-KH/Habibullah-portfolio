@@ -1,4 +1,4 @@
-# 🌐 Habibullah's Portfolio
+# 👋 Me Habibullah
 
 Welcome to my personal portfolio — a showcase of my journey as a **Front-end Web Developer** passionate about building clean, scalable, and user-centric web applications.
 
