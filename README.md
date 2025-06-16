@@ -8,7 +8,7 @@ Hi, I'm **Habibullah Khondoker**, a MERN Stack developer with a love for craftin
 
 - 🎓 B.Sc. in CSE @ IUBAT
 - 🛠️ Tech Stack: JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB
-- 🎯 Currently exploring: TypeScript, UI/UX design principles
+- 🎯 Currently exploring: TypeScript, React Native, UI/UX design principles
 
 ## 🧰 Tech Highlights
 
