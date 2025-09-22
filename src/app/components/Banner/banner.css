@@ -10,3 +10,9 @@
   box-shadow: 0 0 10px var(--clr-primary);
   background-image: var(--gradient-primary);
 }
+
+.banner {
+  background-image: 
+    repeating-linear-gradient(to right, #ccc 0, #ccc 1px, transparent 1px, transparent 50px),
+    repeating-linear-gradient(to bottom, #ccc 0, #ccc 1px, transparent 1px, transparent 50px);
+}
