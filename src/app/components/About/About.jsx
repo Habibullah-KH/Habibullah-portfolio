@@ -5,7 +5,7 @@ import Profilebanner from "../Profilebanner";
 
 export default function About() {
   return (
-    <div className="about-container rounded-none lg:rounded-[1rem] lg:m-3">
+    <div className="about-container rounded-none">
     <h1 className="about-heading text-center">About Me</h1>
 
     <div className="grid lg:grid-cols-2 items-center">
