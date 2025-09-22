@@ -4,7 +4,7 @@ import { FaCode, FaRocket, FaLightbulb, FaTools } from "react-icons/fa";
 export default function About() {
   return (
     <div className="about-container">
-      <h1 className="about-heading">👋 About Me</h1>
+      <h1 className="about-heading">About Me</h1>
 
       <section className="about-section">
         <p>
