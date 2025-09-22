@@ -1,8 +1,6 @@
 .about-container {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 1800px;
   padding: 2rem;
-  border-radius: 1rem;
   box-shadow: 0 0 10px var(--clr-primary);
   background-image: var(--gradient-primary);
 
@@ -15,23 +13,16 @@
 }
 
 .about-section p {
-  margin-bottom: 1rem;
   line-height: 1.7;
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 2rem;
-}
-
-.section-list {
-  list-style: disc;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
 }
 
 .icon {
@@ -42,6 +33,11 @@
 .connect-section {
   text-align: center;
   margin-top: 2.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+section p,
+section ul li {
+  font-size: 0.8rem;
 }
