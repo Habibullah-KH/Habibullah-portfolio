@@ -47,7 +47,7 @@ export default function RandomText({text}) {
         clearInterval(interval);
         setDisplayText(text);
       }
-    }, 80);
+    }, 50);
     return ()=>clearInterval(interval);
   }, [start, text])
 
