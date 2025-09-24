@@ -54,7 +54,7 @@ export default function RandomText({text}) {
   return (
     <>
       <div ref={ref}>
-      <h1>
+      <h1 className='text-3xl'>
         {displayText}
       </h1>
     </div>

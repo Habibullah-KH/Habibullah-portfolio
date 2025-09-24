@@ -19,20 +19,31 @@ export default function Skills() {
 
   return (
     <div className={`mySkillsContainer ${darkMode === "enabled" ? "bg_circel_black" : "bg_circel_white"}`}>
-        <RandomText text={'Habibullah'}/>
 
     <div className={`mx-auto flex flex-col md:flex-row items-center justify-center
     `}
     >
 
       {animationData && (
-        <div >
+        <div className="hidden md:block">
           <Lottie animationData={animationData} loop={true} />
         </div>
       )}
+
+<div>
+
+<div className="py-5">
+<RandomText text={'Technologies I use.'}/>
+<p className="text-xs">I have worked with a variety of technologies.
+<br></br>
+ Here are the technologies I have experience with:</p>
+</div>
 <div className="max-w-[30rem]">
       <SkillCard />
 </div>
+
+
+      </div>
     </div>
     </div>
   );
