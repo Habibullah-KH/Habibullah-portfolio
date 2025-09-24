@@ -3,7 +3,6 @@ import React from 'react'
 import Banner from '../Banner/Banner'
 import "./heroSection.css"
 import { useTheme } from '../Theme/useTheme'
-import Profilebanner from '../Profilebanner'
 
 export default function HeroSection() {
   const {darkMode} = useTheme();

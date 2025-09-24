@@ -1,0 +1,14 @@
+.glitch-text {
+  position: relative;
+  color: #9b5de5;
+  animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 0 0 2px #fff, 0 0 5px #9b5de5, 0 0 10px #9b5de5;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}

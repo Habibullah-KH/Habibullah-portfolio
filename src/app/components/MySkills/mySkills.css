@@ -1,3 +1,18 @@
+.bg_circel_white {
+  background-image: 
+  repeating-radial-gradient(circle at 50% -120%, #f3f2f2 0, #f3f2f2 1px, transparent 1px, transparent 40px);
+
+
+    /* radial-gradient(circle at  50% 250%, rgba(255, 0, 0, 0.442), transparent) */
+    
+}
+.bg_circel_black {
+  background-image: 
+      repeating-radial-gradient(circle at 50% -120%, #333333 0, #333333 1px, transparent 1px, transparent 40px);
+
+
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
