@@ -1,35 +1,36 @@
-import ButtonFill from "../Buttons/Button_fill/ButtonFill"
 import "./projects.css"
 import "../../globals.css"
 import { FaGithub } from "react-icons/fa";
+import ButtonFill from "../Buttons/Button_fill/ButtonFill";
+import ImageSlider from "../ImageSlider/ImageSlider";
 
 export default function ProjectCard({project}){
     return(
         <>
-        <div className="card_container  p-2 md:p-10 relative">
-        {/* image section start */}
-            <div className="image_container">
-                <img className="image_container" src={project?.banner}/>
-            </div>
-        {/* image section end */}
-
+        <div className="card_container mt-5">
         {/* text container start */}
             <div className="text_container">
             <h2 className="font-bold text-2xl">{project?.title}</h2>
-
+            <div className="opacity-85">
+            <p>Date</p>
             <p>{project?.description}</p>
+            </div>
 
-            <div className="flex gap-3 mt-2 absolute bottom-3">
+            <div className="mt-2">
             <button className="w-32">
             <a href={project?.liveLink} target="blank"><ButtonFill>Live</ButtonFill></a>
-            </button>
-            <button className="w-32">
-            <a href={project?.githubLink} target="blank"><ButtonFill><div className="flex items-center justify-center gap-2"><FaGithub /> Github</div></ButtonFill></a>
             </button>
             </div>
 
             </div>
         {/* text container end */}
+
+        {/* image section start */}
+            <div className="image_container">
+               <ImageSlider image={project?.images}/>
+            </div>
+        {/* image section end */}
+
         </div>
         </>
     )

@@ -8,8 +8,8 @@ export default function Home() {
   <div>
     <div className="mb-20"><HeroSection/></div>
     <div id="about" className="mb-20"><About/></div>
-    <div id="skill" className="mb-20"><Skills/></div>
     <div id="project" className="mb-20"><Project/></div>
+    <div id="skill" className="mb-20"><Skills/></div>
   </div>
   );
 }
