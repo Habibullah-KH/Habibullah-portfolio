@@ -1,12 +1,11 @@
 "use client";
 
-export default function ImageSlider({ images }) {
- console.log(images);
+export default function ImageSlider({images}) {
   return (
-    <>
-      <div>
-        
-      </div>
-    </>
+    <div>
+      {images?.map((image, idx) => (
+        <img key={idx} src={image} />
+      ))}
+    </div>
   );
 }

@@ -27,7 +27,7 @@ export default function ProjectCard({project}){
 
         {/* image section start */}
             <div className="image_container">
-               <ImageSlider image={project?.images}/>
+               <ImageSlider images={project?.images}/>
             </div>
         {/* image section end */}
 

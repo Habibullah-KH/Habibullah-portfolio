@@ -11,15 +11,15 @@ import { SiExpress } from "react-icons/si";
 export default function InfiniteScroll (){
     return(
         <>
-<ul class="wrapper">
-  <li class="item item1"><IoLogoHtml5 /> HTML</li>
-  <li class="item item2"><FaCss3Alt /> CSS</li>
-  <li class="item item3"><SiJavascript /> JavaScript</li>
-  <li class="item item4"><span className='font-xl'><RiTailwindCssFill /></span> TailwindCSS</li>
-  <li class="item item5"><IoLogoFirebase /> Firebase</li>
-  <li class="item item6"><FaReact /> React.js</li>
-  <li class="item item7"><SiNextdotjs /> Next.js</li>
-  <li class="item item8"><SiExpress /> Express.js</li>
+<ul className="wrapper">
+  <li className="item item1"><IoLogoHtml5 /> HTML</li>
+  <li className="item item2"><FaCss3Alt /> CSS</li>
+  <li className="item item3"><SiJavascript /> JavaScript</li>
+  <li className="item item4"><span className='font-xl'><RiTailwindCssFill /></span> TailwindCSS</li>
+  <li className="item item5"><IoLogoFirebase /> Firebase</li>
+  <li className="item item6"><FaReact /> React.js</li>
+  <li className="item item7"><SiNextdotjs /> Next.js</li>
+  <li className="item item8"><SiExpress /> Express.js</li>
 </ul>
         </>
     );
