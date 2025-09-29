@@ -20,7 +20,7 @@
 /* style image container */
 
 .image_container{
-    height: 270px;
+    
     border-radius: 0.5rem;
     object-fit: cover;
     object-position: top;
