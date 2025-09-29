@@ -26,7 +26,7 @@ export default function ProjectCard({project}){
         {/* text container end */}
 
         {/* image section start */}
-            <div className="image_container">
+            <div className="image_container w-full">
                <ImageSlider images={project?.images}/>
             </div>
         {/* image section end */}
