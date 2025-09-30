@@ -37,6 +37,10 @@ const [currentIndex, setCurrentIndex] = useState(0);
          className="flex gap-2 overflow-x-auto">
       {images?.map((image, idx) => (
         <div
+        className={`
+        hover:border-3 hover:border-red-500 rounded-lg border-2 border-transparent duration-300
+        ${idx === currentIndex ? 'border-3 border-red-500 rounded-lg':' border-2 border-transparent'}
+        `}
         onClick={() => handleImageClick(idx)}
         >
         <ImageCard img={image} idx={idx}/>
