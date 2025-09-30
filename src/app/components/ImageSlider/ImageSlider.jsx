@@ -46,8 +46,10 @@ const [currentIndex, setCurrentIndex] = useState(0);
       {images?.map((image, idx) => (
         <div
         className={`
-        hover:border-3 hover:border-red-500 rounded-lg border-2 border-transparent duration-300
-        ${idx === currentIndex ? 'border-3 border-red-500 rounded-lg':' border-2 border-transparent'}`}
+        rounded-lg border-2 duration-300
+        ${idx === currentIndex ? ' border-amber-500 '
+        :
+        ' border-transparent hover:border-red-500'}`}
         onClick={() => handleImageClick(idx)}
         >
         <ImageCard img={image} idx={idx}/>

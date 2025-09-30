@@ -8,7 +8,7 @@ export default function ImageCard({img, idx}) {
         border-2
          
          ">
-          <img className="object-cover w-full h-full" key={idx} src={img} />
+          <img className="object-cover w-full h-full rounded-sm" key={idx} src={img} />
         </div>
     </>
   )
